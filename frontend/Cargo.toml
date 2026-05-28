@@ -1,0 +1,11 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gloo-net = { version = "0.6", features = ["http"] }
+leptos = { version = "0.7", features = ["csr"] }
+serde_json = { workspace = true }
+shared = { workspace = true }
+wasm-bindgen-futures = "0.4"

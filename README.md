@@ -51,7 +51,7 @@ Navigate to the frontend directory and build the client assets:
 cd frontend
 trunk build --release
 ```
-*This compiles your Rust UI into an optimized `.wasm` binary and generates the JavaScript glue code inside `frontend/pkg/`.*
+*This compiles your Rust UI into an optimized `.wasm` binary and generated web assets inside `frontend/dist/`.*
 
 ### 2. Run the Backend (Salvo)
 Return to the root workspace directory and launch the web server:
