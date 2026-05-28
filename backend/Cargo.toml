@@ -1,0 +1,10 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+salvo = { version = "0.74", features = ["serve-static"] }
+serde_json = { workspace = true }
+shared = { workspace = true }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
